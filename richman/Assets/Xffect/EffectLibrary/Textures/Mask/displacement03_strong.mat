@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: displacement03_strong
+  m_Shader: {fileID: 4800000, guid: 5e1b561ee80cda847877ac01aff4ff95, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: 3101
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DispMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 2c179e39c54ed2649a9e8c5dca95aac9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 55e6facb2bb623449942330fa9a8f00a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _DispScrollSpeedX
+        second: -1
+      data:
+        first:
+          name: _DispScrollSpeedY
+        second: 1
+      data:
+        first:
+          name: _StrengthX
+        second: -3
+      data:
+        first:
+          name: _StrengthY
+        second: 3
+      data:
+        first:
+          name: _HeatTime
+        second: 1.5
+      data:
+        first:
+          name: _DispWave
+        second: 0
+      data:
+        first:
+          name: _Acce
+        second: .200000003
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

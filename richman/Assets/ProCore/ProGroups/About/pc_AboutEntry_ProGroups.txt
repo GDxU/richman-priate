@@ -1,0 +1,6 @@
+name: ProGroups
+identifier: ProGroups_AboutWindowIdentifier
+version: 1.1.0
+revision: 2323
+date: 05-14-2014
+changelog: Assets/ProCore/ProGroups/About/changelog.txt

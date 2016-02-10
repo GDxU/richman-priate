@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WaterMarshe
+  m_Shader: {fileID: 4800000, guid: b81f1ec75f47e824cb777b612f2c0903, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 8900000, guid: d8f32bd19eb8aee4a892c5b3212cf3e7, type: 2}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture1
+        second:
+          m_Texture: {fileID: 2800000, guid: 0ad89a43bbce2ad478149fcb8db5e46a, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap1
+        second:
+          m_Texture: {fileID: 2800000, guid: 0c86fdd60e7cfa449bc1dfa85643bc42, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture2
+        second:
+          m_Texture: {fileID: 2800000, guid: ddd17b2ea394cc241b48c11f156a9832, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: b89ed1387a34e134abeb6e1a63b8bfe2, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DistortionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d710a24e5b6b6242ac7c73e31aa2af8, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Specular
+        second: 1.25
+      data:
+        first:
+          name: _MainTexSpeed
+        second: .200000003
+      data:
+        first:
+          name: _Bump1Speed
+        second: .00999999978
+      data:
+        first:
+          name: _Texture2Speed
+        second: .300000012
+      data:
+        first:
+          name: _Bump2Speed
+        second: .200000003
+      data:
+        first:
+          name: _DistortionSpeed
+        second: .5
+      data:
+        first:
+          name: _DistortionPower
+        second: .0017857143
+      data:
+        first:
+          name: _Gloss
+        second: .391071439
+      data:
+        first:
+          name: _Opacity
+        second: 0
+      data:
+        first:
+          name: _ReflectPower
+        second: .732142866
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

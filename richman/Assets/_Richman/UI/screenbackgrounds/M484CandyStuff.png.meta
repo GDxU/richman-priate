@@ -1,0 +1,795 @@
+fileFormatVersion: 2
+guid: 1b98e1fa137592a4590c47869ad69015
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: M484CandyStuff_0
+    21300002: M484CandyStuff_1
+    21300004: M484CandyStuff_2
+    21300006: M484CandyStuff_3
+    21300008: M484CandyStuff_4
+    21300010: M484CandyStuff_5
+    21300012: M484CandyStuff_6
+    21300014: M484CandyStuff_7
+    21300016: M484CandyStuff_8
+    21300018: M484CandyStuff_9
+    21300020: M484CandyStuff_10
+    21300022: M484CandyStuff_12
+    21300024: M484CandyStuff_13
+    21300026: M484CandyStuff_16
+    21300028: M484CandyStuff_17
+    21300030: M484CandyStuff_18
+    21300032: M484CandyStuff_19
+    21300034: M484CandyStuff_20
+    21300036: M484CandyStuff_21
+    21300038: M484CandyStuff_22
+    21300040: M484CandyStuff_23
+    21300042: M484CandyStuff_24
+    21300044: M484CandyStuff_25
+    21300046: M484CandyStuff_26
+    21300048: M484CandyStuff_28
+    21300050: M484CandyStuff_29
+    21300052: M484CandyStuff_30
+    21300054: M484CandyStuff_32
+    21300056: M484CandyStuff_37
+    21300058: M484CandyStuff_38
+    21300060: M484CandyStuff_40
+    21300062: M484CandyStuff_41
+    21300064: M484CandyStuff_42
+    21300066: M484CandyStuff_44
+    21300068: M484CandyStuff_45
+    21300070: M484CandyStuff_46
+    21300072: M484CandyStuff_47
+    21300074: M484CandyStuff_48
+    21300076: M484CandyStuff_49
+    21300078: M484CandyStuff_50
+    21300080: M484CandyStuff_51
+    21300082: M484CandyStuff_53
+    21300084: M484CandyStuff_54
+    21300086: M484CandyStuff_55
+    21300088: M484CandyStuff_57
+    21300090: M484CandyStuff_58
+    21300092: M484CandyStuff_59
+    21300094: M484CandyStuff_63
+    21300096: M484CandyStuff_64
+    21300098: M484CandyStuff_65
+    21300100: M484CandyStuff_66
+    21300102: M484CandyStuff_67
+    21300104: M484CandyStuff_68
+    21300106: M484CandyStuff_69
+    21300108: M484CandyStuff_70
+    21300110: M484CandyStuff_71
+    21300112: M484CandyStuff_72
+    21300114: M484CandyStuff_73
+    21300116: M484CandyStuff_74
+    21300118: M484CandyStuff_75
+    21300120: M484CandyStuff_76
+    21300122: M484CandyStuff_77
+    21300124: M484CandyStuff_78
+    21300126: M484CandyStuff_79
+    21300128: M484CandyStuff_80
+    21300130: M484CandyStuff_81
+    21300132: M484CandyStuff_82
+    21300134: M484CandyStuff_83
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 1
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 1
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 0
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: M484CandyStuff_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 511
+        width: 31
+        height: 69
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 570
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 568
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 565
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_4
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 565
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 565
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 565
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 511
+        width: 31
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 551
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 551
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 551
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 511
+        width: 31
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 537
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 537
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 523
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_18
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 523
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 523
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 523
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 509
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_22
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 509
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_23
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 509
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 509
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_25
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 495
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 495
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_28
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 495
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 392
+        width: 141
+        height: 102
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 481
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_32
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 432
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_37
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 432
+        width: 4
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_38
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 432
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_40
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 432
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_41
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 432
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_42
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 432
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_44
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 432
+        width: 5
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_45
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 432
+        width: 4
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_46
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 432
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_47
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 432
+        width: 10
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_48
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 432
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_49
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 432
+        width: 5
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_50
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 432
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_51
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 432
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_53
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 432
+        width: 4
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_54
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 430
+        width: 8
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_55
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 432
+        width: 4
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_57
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 432
+        width: 4
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_58
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 432
+        width: 5
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_59
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 432
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_63
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 243
+        width: 130
+        height: 93
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_64
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 333
+        width: 26
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_65
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 333
+        width: 26
+        height: 37
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 260
+        width: 62
+        height: 67
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_67
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 254
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 245
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_69
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 201
+        width: 102
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_70
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 122
+        width: 25
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 122
+        width: 25
+        height: 35
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_72
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 122
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 121
+        width: 39
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_74
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 110
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_75
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 110
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_76
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 110
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_77
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 110
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_78
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 80
+        width: 79
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_79
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 80
+        width: 81
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_80
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 80
+        width: 81
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_81
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 28
+        width: 39
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 28
+        width: 41
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: M484CandyStuff_83
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 18
+        width: 80
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: EasyWater
+  m_Shader: {fileID: 4800000, guid: 750c4eb3361f01f46998fa40311eb393, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b054931512d8cbc4a825340cf3644f89, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Reflection
+        second:
+          m_Texture: {fileID: 2800000, guid: 27f8962f5aa5e9040a8960858b3f9890, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: a22eee008653d5a41ad13609546d50dd, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: 95cc120be84057e4181b06bed011ff37, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 2800000, guid: f3d70756c003ed84388e6fa9e5c82574, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture1
+        second:
+          m_Texture: {fileID: 2800000, guid: 0ad89a43bbce2ad478149fcb8db5e46a, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap1
+        second:
+          m_Texture: {fileID: 2800000, guid: b89ed1387a34e134abeb6e1a63b8bfe2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture2
+        second:
+          m_Texture: {fileID: 2800000, guid: 0ad89a43bbce2ad478149fcb8db5e46a, type: 3}
+          m_Scale: {x: 4, y: 4}
+          m_Offset: {x: .5, y: .300000012}
+      data:
+        first:
+          name: _BumpMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: b89ed1387a34e134abeb6e1a63b8bfe2, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: .5, y: .300000012}
+      data:
+        first:
+          name: _DistortionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8d710a24e5b6b6242ac7c73e31aa2af8, type: 3}
+          m_Scale: {x: 10, y: 10}
+          m_Offset: {x: .300000012, y: .300000012}
+      data:
+        first:
+          name: _CubeReflection
+        second:
+          m_Texture: {fileID: 8900000, guid: 95cc120be84057e4181b06bed011ff37, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _SecTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 111d92ef2c4e5ec41a673a112bfdbc00, type: 3}
+          m_Scale: {x: 4, y: 4}
+          m_Offset: {x: .300000012, y: .300000012}
+      data:
+        first:
+          name: _DisplacementMap
+        second:
+          m_Texture: {fileID: 2800000, guid: fec47a050e9dd854cad5e0c9871282b6, type: 3}
+          m_Scale: {x: 5, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _reflectTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ab3d7df9284ac7a41b9c9760e945736c, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Spec_Gloss_Reflec_Masks
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _reflection
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture
+        second:
+          m_Texture: {fileID: 2800000, guid: 8c7eda9c9cf1102419394358216f4d51, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Reflection
+        second: .182692304
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: 1.5
+      data:
+        first:
+          name: _Specular
+        second: 7
+      data:
+        first:
+          name: _MainTexSpeed
+        second: .200000003
+      data:
+        first:
+          name: _Bump1Speed
+        second: .119999997
+      data:
+        first:
+          name: _Texture2Speed
+        second: .5
+      data:
+        first:
+          name: _Bump2Speed
+        second: .0500000007
+      data:
+        first:
+          name: _DistortionSpeed
+        second: 1.20000005
+      data:
+        first:
+          name: _DistortionPower
+        second: .00384615385
+      data:
+        first:
+          name: _Gloss
+        second: .528846145
+      data:
+        first:
+          name: _Opacity
+        second: .688461542
+      data:
+        first:
+          name: _ReflectPower
+        second: .226923093
+      data:
+        first:
+          name: _OverallOpacity
+        second: .288461536
+      data:
+        first:
+          name: _Opacidade
+        second: .413461506
+      data:
+        first:
+          name: _teste
+        second: 0
+      data:
+        first:
+          name: _Teste2
+        second: 0
+      data:
+        first:
+          name: _Teste3
+        second: 0
+      data:
+        first:
+          name: _DistortSpeed
+        second: .0173076931
+      data:
+        first:
+          name: _DistortPower
+        second: .00307692308
+      data:
+        first:
+          name: _Angulo
+        second: 3.42307687
+      data:
+        first:
+          name: _BumpForce
+        second: .365384609
+      data:
+        first:
+          name: _testeRefl
+        second: .192307696
+      data:
+        first:
+          name: _testeX
+        second: .036923077
+      data:
+        first:
+          name: _testeY
+        second: .0184615385
+      data:
+        first:
+          name: _testeZ
+        second: .192307696
+      data:
+        first:
+          name: _testeW
+        second: -.0769230649
+      data:
+        first:
+          name: _FrezPow
+        second: .25
+      data:
+        first:
+          name: _FrezFalloff
+        second: 4
+      data:
+        first:
+          name: _Metalics
+        second: .5
+      data:
+        first:
+          name: _EdgeAlpha
+        second: 0
+      data:
+        first:
+          name: _testeadd
+        second: 5
+      data:
+        first:
+          name: _ReflUV
+        second: 1.26923072
+      data:
+        first:
+          name: _ReflUVadd
+        second: 0
+      data:
+        first:
+          name: _ReflFresnel
+        second: .115384616
+      data:
+        first:
+          name: _Add
+        second: 4.80769253
+      data:
+        first:
+          name: _RangeX
+        second: .5
+      data:
+        first:
+          name: _Range
+        second: 5
+      data:
+        first:
+          name: _Rangew
+        second: 1
+      data:
+        first:
+          name: _RangeZ
+        second: 10
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .671641827, g: .671641827, b: .671641827, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _teste
+        second: {r: -1, g: -1, b: -1, a: -5}
+      data:
+        first:
+          name: _Add
+        second: {r: 1, g: 1, b: 0, a: 0}
+      data:
+        first:
+          name: _TextureSpeed
+        second: {r: .0500000007, g: -.00999999978, b: .00999999978, a: -.00300000003}
+      data:
+        first:
+          name: _Speeds
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Animations
+        second: {r: .100000001, g: -.00999999978, b: .00999999978, a: -.00499999989}
+      data:
+        first:
+          name: _Sub
+        second: {r: 1, g: 90, b: 1, a: 1}
+      data:
+        first:
+          name: _Mult
+        second: {r: .5, g: .5, b: .5, a: .5}
+      data:
+        first:
+          name: _Teste
+        second: {r: 1.07000005, g: 1.10000002, b: -.519999981, a: -.150000006}

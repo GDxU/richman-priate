@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400010}
+  m_Layer: 0
+  m_Name: GameEngNeil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ca1f2fcb1aadc4d81cacf8d92c4b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolumeBGM: 0
+  SoundOn: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9431c36f7f67d9042acb93164c4e0031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mplayers:
+  - playername: richman4
+    owner_id: 323
+    bankmoney: 19199
+    moneyinhand: 9999
+    power_kill: 0
+    stand_at_prop_id: 1
+    currentstep: 0
+    prefab: {fileID: 100004, guid: e136d346e14990a4e8782207e038d2b6, type: 2}
+    player_status: 0
+    favoritColor:
+      serializedVersion: 2
+      rgba: 987105
+    moveTiltUpDegree: 10
+    amplitudeY: .0700000003
+    omegaY: 3.71000004
+    movingWithWave: 1
+    character_stage: {fileID: 0}
+    asset_cards: []
+    asental: []
+    position: {x: 0, y: 0, z: 0}
+    _brain: 1
+  - playername: rich
+    owner_id: 326
+    bankmoney: 19199
+    moneyinhand: 9999
+    power_kill: 0
+    stand_at_prop_id: 1
+    currentstep: 0
+    prefab: {fileID: 100006, guid: 665b0044fe5052d45b5d4d3609c90ce8, type: 2}
+    player_status: 0
+    favoritColor:
+      serializedVersion: 2
+      rgba: 5103887
+    moveTiltUpDegree: 10
+    amplitudeY: .5
+    omegaY: .5
+    movingWithWave: 1
+    character_stage: {fileID: 0}
+    asset_cards: []
+    asental: []
+    position: {x: 0, y: 0, z: 0}
+    _brain: 1
+  movementSpeed: 1.10000002
+  estimate_build_time: 1.92999995
+  stepDebug: 0
+  groundonlymask:
+    serializedVersion: 2
+    m_Bits: 272
+  fantcam: {fileID: 0}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa2e1cc19cbe3b04abd7cd90717bd797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 1
+  buildingDust: {fileID: 100034, guid: a1536170e4075b64c9329360d958c729, type: 2}
+  rezIsland: {fileID: 100000, guid: ed3197c646517164692ac5de06ddc396, type: 2}
+  loadSplinePrefab: {fileID: 100018, guid: cfc3e0f7a1b1d9447a1052920cf4ca05, type: 2}
+  totalnodes: 0
+  fixPriceInflationRange: {x: 0, y: 1}
+  revenueRange: {x: 0, y: 1}
+  buildingDustScale: .5
+  seaLevel: .389999986
+  building_offset: .00999999978
+  land_distance_from_node: 1.90999997
+  bigList: []
+  building_desc:
+  - prefab: {fileID: 100030, guid: 9af19a371b9a0594cb4dcee8b6adb5eb, type: 2}
+    typebuilding: 1
+    basicPrice: 100
+    building_name: Hsao
+  - prefab: {fileID: 100068, guid: 4d6c2cdcee8217341962f224847b427b, type: 2}
+    typebuilding: 2
+    basicPrice: 200
+    building_name: DS
+  - prefab: {fileID: 100112, guid: df8f779292e1ec142a1009fbafca70b7, type: 2}
+    typebuilding: 3
+    basicPrice: 500
+    building_name: CC
+  mstation:
+  - name: FV
+    owned_by_id: 0
+    level: 0
+    id: 223
+    event_pass: 3
+    blocktype: 7
+    fix_price_inflation_factor: 0
+    revenue_factor: 0
+    position_step: 2
+    prefab: {fileID: 100082, guid: 51e97f70110cafe4ab1893b4f0719f31, type: 2}
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8432482adb8569a468553156ff6087e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dicePrefab: {fileID: 100000, guid: 9f1246bbbe1ac03439bacf82f0864559, type: 2}
+  resultDebug: 0
+  total_dices: 1
+  sum_results: 0
+  debugDice: 1
+  waiting: 2.94000006
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb1fd2abba9c6c49809ec96202d06e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundonlymask:
+    serializedVersion: 2
+    m_Bits: 272
+  _nodeStationAllowDistance: .5
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7367604d542bbba478ab70a8ca911d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,40 @@
+Lumos
+=====
+
+Thank you for using Lumos. This package enables your game to have
+several online services at its disposal.
+
+Current version: 1.5.7
+Supports: Unity 3.5 and 4.x
+
+
+Getting Started
+---------------
+
+1. Create an account on https://www.lumospowered.com
+2. Register (create) your game
+3. Copy your secret key from your game settings page
+4. Paste your secret key into the Lumos Install window.
+	- If this window is not present, go to GameObject -> Create Other ->
+	Lumos...
+
+For more detailed instructions, please visit https://www.lumospowered.com/docs
+
+Powerups
+---------------
+
+If you are trying to use a powerup but nothing is happening, it's possible 
+a component was not added or was accidentally removed from the Lumos 
+GameObject.
+
+You can fix this by openening Unity's preferences, go to the Lumos panel, and
+click the "Run Setup Scripts" button. This will attempt to add any missing
+components to the Lumos prefab.
+
+
+Contact Us
+----------
+
+If you run into a problem or have a suggestion, let us know by emailing
+support@lumospowered.com or by visiting our support page at
+https://www.lumospowered.com/docs

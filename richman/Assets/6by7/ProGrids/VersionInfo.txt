@@ -1,0 +1,4 @@
+name: ProGrids 2
+version: 2.0b1
+revision: 1037
+date: 07-18-2013

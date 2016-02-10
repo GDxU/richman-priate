@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400008}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: GameEng
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ca1f2fcb1aadc4d81cacf8d92c4b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolumeBGM: 0
+  SoundOn: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9431c36f7f67d9042acb93164c4e0031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mplayers:
+  - playername: richman4
+    owner_id: 323
+    bankmoney: 19199
+    moneyinhand: 9999
+    power_kill: 0
+    stand_at_prop_id: 1
+    currentstep: 0
+    prefab: {fileID: 100010, guid: 7b5809c02cee378419cc8e7e55decf38, type: 2}
+    player_status: 0
+    favoritColor:
+      serializedVersion: 2
+      rgba: 987105
+    moveTiltUpDegree: 10
+    amplitudeY: .0700000003
+    omegaY: 3.71000004
+    movingWithWave: 1
+    character_stage: {fileID: 0}
+    plist: []
+    cards: []
+    position: {x: 0, y: 0, z: 0}
+    mbrain: 0
+  - playername: rich
+    owner_id: 326
+    bankmoney: 19199
+    moneyinhand: 9999
+    power_kill: 0
+    stand_at_prop_id: 1
+    currentstep: 0
+    prefab: {fileID: 100010, guid: cb31985b7fbc7ea4ab08739efe16a42d, type: 2}
+    player_status: 0
+    favoritColor:
+      serializedVersion: 2
+      rgba: 5103887
+    moveTiltUpDegree: 10
+    amplitudeY: .5
+    omegaY: .5
+    movingWithWave: 1
+    character_stage: {fileID: 0}
+    plist: []
+    cards: []
+    position: {x: 0, y: 0, z: 0}
+    mbrain: 1
+  movementSpeed: 1.10000002
+  estimate_build_time: 1.92999995
+  stepDebug: 0
+  groundonlymask:
+    serializedVersion: 2
+    m_Bits: 272
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c1d310a177e8a448b9426e929b25337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  height: 4.19999981
+  distance: 2.29999995
+  min: 1
+  max: 10
+  rotateSpeed: 1
+  doRotate: 0
+  doZoom: 1
+  zoomStep: 30
+  zoomSpeed: 5
+  tweenObject: {fileID: 0}
+  kDelta: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80596411c254f27419e93e92e587c3c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  allproperties: {fileID: 100000, guid: e2a2bd2ff843b4c4ab9ff02c2d10f923, type: 2}
+  spotlight: {fileID: 0}
+  buildingDust: {fileID: 100000, guid: dc6da1d6e30d6dd42ae82d67fdea65a3, type: 2}
+  rezIsland: {fileID: 100000, guid: ed3197c646517164692ac5de06ddc396, type: 2}
+  name_of_the_property_holder: propertyholder
+  bigList: []
+  ground_only_mask:
+    serializedVersion: 2
+    m_Bits: 272
+  fix_price_inflation_factor: []
+  revenue_factor: []
+  buildingDustScale: .5
+  building_desc:
+  - prefab: {fileID: 100018, guid: 20cd6173e84eb204383b6396c13f3286, type: 2}
+    typebuilding: 1
+    basicPrice: 100
+    building_name: CC
+  - prefab: {fileID: 100030, guid: 9af19a371b9a0594cb4dcee8b6adb5eb, type: 2}
+    typebuilding: 2
+    basicPrice: 200
+    building_name: NexV
+  - prefab: {fileID: 100068, guid: 4d6c2cdcee8217341962f224847b427b, type: 2}
+    typebuilding: 3
+    basicPrice: 300
+    building_name: NexF
+  - prefab: {fileID: 100000, guid: 2b1e3f1219322b642a5245c55464878b, type: 2}
+    typebuilding: 4
+    basicPrice: 400
+    building_name: Nexy
+  - prefab: {fileID: 100112, guid: df8f779292e1ec142a1009fbafca70b7, type: 2}
+    typebuilding: 5
+    basicPrice: 400
+    building_name: Sexy
+  - prefab: {fileID: 100000, guid: 2b1e3f1219322b642a5245c55464878b, type: 2}
+    typebuilding: 6
+    basicPrice: 400
+    building_name: Lurxy
+  mstation:
+  - name: TTC
+    owned_by_id: -1
+    level: 0
+    id: 685
+    event_pass: 3
+    blocktype: 7
+    fix_price_inflation_factor: 2.0999999
+    revenue_factor: 2.0999999
+    position_step: 2
+    prefab: {fileID: 100000, guid: 2b1e3f1219322b642a5245c55464878b, type: 2}
+  LandAboveFromGround: .430000007
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8432482adb8569a468553156ff6087e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dicePrefab: {fileID: 100000, guid: 9f1246bbbe1ac03439bacf82f0864559, type: 2}
+  resultDebug: 0
+  total_dices: 1
+  sum_results: 0
+  debugDice: 3
+  waiting: 2.94000006
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

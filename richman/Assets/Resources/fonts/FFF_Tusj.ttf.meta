@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49851d64b1c9a17499dee1afdf7064a4
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames:
+  - FFFTusj
+  customCharacters: 
+  fontRenderingMode: 0
+  userData: 

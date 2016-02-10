@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Tasharen Water
+  m_Shader: {fileID: 4800000, guid: 092014fe456c8ab4b92a059d8d5b21b4, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 023597a194c90bc41aaf9bb24bb0e519, type: 3}
+          m_Scale: {x: 300, y: 300}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WiggleTex
+        second:
+          m_Texture: {fileID: 2800000, guid: b042789329269c0488dd0659353c37fd, type: 3}
+          m_Scale: {x: 200, y: 200}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Cube
+        second:
+          m_Texture: {fileID: 8900000, guid: add2f0e1f7eadb0469742a8697c28e11, type: 2}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0ad89a43bbce2ad478149fcb8db5e46a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0c86fdd60e7cfa449bc1dfa85643bc42, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterColor
+        second:
+          m_Texture: {fileID: 2800000, guid: 291b0ecfdea2f2240a4adf8f1a0dec3a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectiveColorCube
+        second:
+          m_Texture: {fileID: 8900000, guid: 9cda328e4b6954d70841a8a66f42ec08, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .224985212
+      data:
+        first:
+          name: _WiggleStrength
+        second: .0566071458
+      data:
+        first:
+          name: _Focus
+        second: -100
+      data:
+        first:
+          name: _Tiling
+        second: .25
+      data:
+        first:
+          name: _ReflectionTint
+        second: 1
+      data:
+        first:
+          name: _Distortion
+        second: .200000003
+      data:
+        first:
+          name: _WaveScale
+        second: .0728113204
+      data:
+        first:
+          name: _ReflDistort
+        second: 1.5
+      data:
+        first:
+          name: _RefrDistort
+        second: 0
+      data:
+        first:
+          name: _FresnelBias
+        second: 0
+      data:
+        first:
+          name: _FresnelScale
+        second: 1
+      data:
+        first:
+          name: _FresnelPower
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .397058845, g: .700608671, b: 1, a: 1}
+      data:
+        first:
+          name: _Specular
+        second: {r: .264273375, g: .382352948, b: .367694795, a: 0}
+      data:
+        first:
+          name: _Color0
+        second: {r: .808823526, g: .975935817, b: 1, a: 1}
+      data:
+        first:
+          name: _Color1
+        second: {r: .698529422, g: .910932779, b: 1, a: 0}
+      data:
+        first:
+          name: _InvRanges
+        second: {r: .529999971, g: .370000005, b: .600000024, a: .0500000007}
+      data:
+        first:
+          name: _WaveSpeed
+        second: {r: 9, g: 5, b: -8, a: -4}
+      data:
+        first:
+          name: _InvFadeParemeter
+        second: {r: .230000004, g: .129999995, b: .899999976, a: 1}
+      data:
+        first:
+          name: _Ranges
+        second: {r: 1, g: 5, b: 0, a: 0}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

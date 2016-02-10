@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 1cb18a683593cac4da5481c30ee9be25, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: e6f8288974c664a309d6c66de636978c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8475225dc247efa4288ccfc5cdc40d42, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _WaterColor
+        second:
+          m_Texture: {fileID: 2800000, guid: 291b0ecfdea2f2240a4adf8f1a0dec3a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RefractionTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ReflectiveColorCube
+        second:
+          m_Texture: {fileID: 8900000, guid: 9cda328e4b6954d70841a8a66f42ec08, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _WaveScale
+        second: .0728113204
+      data:
+        first:
+          name: _ReflDistort
+        second: .997589469
+      data:
+        first:
+          name: _RefrDistort
+        second: .313432842
+      data:
+        first:
+          name: _FresnelBias
+        second: 0
+      data:
+        first:
+          name: _FresnelScale
+        second: 1.26865673
+      data:
+        first:
+          name: _FresnelPower
+        second: 2.19402981
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _WaveSpeed
+        second: {r: 9, g: 5, b: -8, a: -4}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
